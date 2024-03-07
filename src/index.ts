@@ -3,9 +3,9 @@ import { datadogLogs } from '@datadog/browser-logs';
 import { ILoggingConnector, LoggingConnectorEvent } from '@crewdle/web-sdk';
 
 export class DatadogLoggingConnector implements ILoggingConnector {
-  constructor(token: string, site: string, env?: string, version?: string) {
+  constructor(clientToken: string, site: string, env?: string, version?: string) {
     datadogLogs.init({
-      clientToken: token,
+      clientToken,
       site,
       service: 'crewdle-sdk',
       env,
