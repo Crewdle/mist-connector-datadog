@@ -1,6 +1,6 @@
 {
   "name": "@crewdle/mist-connector-datadog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Crewdle Mist connector to send cluster logs in Datadog",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
