@@ -1,6 +1,6 @@
 import { datadogLogs } from '@datadog/browser-logs';
 
-import { ILoggingConnector, LoggingConnectorEvent } from '@crewdle/web-sdk';
+import type { ILoggingConnector, LoggingConnectorEvent } from '@crewdle/web-sdk';
 
 /**
  * The Datadog logging connector - Easily log your Crewdle Mist cluster events to Datadog
